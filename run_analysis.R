@@ -56,4 +56,4 @@ colnames(outputFile) <- gsub("[\\(\\)-]", "", colnames(outputFile))
 
 #save output file in txt format
 filename <- "tidydata.txt"
-write.table(outputFile, file = filename, row.names = FALSE, col.names = FALSE)
+write.table(outputFile, file = filename, row.names = FALSE)
